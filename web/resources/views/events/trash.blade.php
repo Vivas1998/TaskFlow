@@ -1,0 +1,4 @@
+<x-layouts.app title="Papelera de eventos" :projects="$projects" :active-project="$project">
+    <a class="back-link" href="{{ route('calendar.index', $project) }}">← Volver al calendario</a><div class="dashboard__heading"><div><p class="dashboard__eyebrow">Papelera</p><h1 class="dashboard__title">Eventos eliminados</h1><p class="dashboard__subtitle">Puedes restaurarlos; en la versión 1.0 no se borran definitivamente.</p></div></div>
+    <section class="panel">@forelse($events as $event)<div class="trash-item"><div><strong>{{ $event->title }}</strong><p>{{ $event->starts_at->translatedFormat('j M Y') }} · Eliminado {{ $event->deleted_at->diffForHumans() }}</p></div><form action="{{ route('events.restore', [$project, $event->id]) }}" method="post">@csrf<button class="button button--secondary" type="submit">Restaurar</button></form></div>@empty<div class="panel-empty"><p>La papelera está vacía.</p></div>@endforelse</section>
+</x-layouts.app>

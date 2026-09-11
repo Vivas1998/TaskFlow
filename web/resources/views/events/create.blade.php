@@ -1,0 +1,3 @@
+<x-layouts.app title="Nuevo evento" :projects="$projects" :active-project="$project">
+    <div class="page-narrow"><a class="back-link" href="{{ route('calendar.index', $project) }}">← Volver al calendario</a><div class="dashboard__heading"><div><p class="dashboard__eyebrow">{{ $project->name }}</p><h1 class="dashboard__title">Nuevo evento</h1><p class="dashboard__subtitle">Todos los eventos aparecen en el calendario del proyecto.</p></div></div><section class="panel form-panel"><x-event-form :action="route('events.store', $project)" :project="$project" :selected-date="$selectedDate" :colors="$colors" /></section></div>
+</x-layouts.app>
