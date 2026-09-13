@@ -3,6 +3,8 @@
 **Fecha:** 11 de septiembre de 2026
 **Estado:** instrucciones verificadas en el PC de desarrollo
 
+Esta guía resume el arranque habitual. Para preparar otro ordenador desde cero, instalar las aplicaciones necesarias, trasladar datos y resolver incidencias, consultar [INSTALACION_EN_OTRO_EQUIPO.md](INSTALACION_EN_OTRO_EQUIPO.md).
+
 ## Requisitos
 
 - Windows 10 u 11 con virtualización habilitada.

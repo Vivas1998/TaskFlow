@@ -42,7 +42,7 @@ Crear una aplicación web colaborativa para organizar proyectos pequeños de ent
 - La sección `Mi cuenta` permite consultar los datos personales y cambiar la contraseña después de confirmar la actual.
 - El calendario de alimentación para organizar las comidas semanales queda fuera de la versión 1.0.
 
-Los requisitos detallados y sus criterios de aceptación se mantienen en [REQUISITOS.md](REQUISITOS.md). El uso del buzón local y la alternativa SMTP futura se documentan en [CONFIGURACION_CORREO.md](CONFIGURACION_CORREO.md). El funcionamiento cotidiano se resume en [GUIA_USUARIO.md](GUIA_USUARIO.md) y el cierre de la entrega en [ESTADO_VERSION_1.0.md](ESTADO_VERSION_1.0.md).
+Los requisitos detallados y sus criterios de aceptación se mantienen en [REQUISITOS.md](REQUISITOS.md). El uso del buzón local y la alternativa SMTP futura se documentan en [CONFIGURACION_CORREO.md](CONFIGURACION_CORREO.md). El funcionamiento cotidiano se resume en [GUIA_USUARIO.md](GUIA_USUARIO.md), la preparación de otro ordenador en [INSTALACION_EN_OTRO_EQUIPO.md](INSTALACION_EN_OTRO_EQUIPO.md) y el cierre de la entrega en [ESTADO_VERSION_1.0.md](ESTADO_VERSION_1.0.md).
 
 ## Entorno y preferencias
 
